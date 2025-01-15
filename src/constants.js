@@ -2,7 +2,7 @@
 //   process.env.NODE_ENV === 'develeopment' ? 'http://localhost:5000' : '';
 export const BASE_URL =
   process.env.NODE_ENV === 'development'
-    ? 'https://estore-back.onrender.com' // Local backend for development
+    ? 'http://localhost:3000' // Local backend for development
     : 'https://estore-back.onrender.com';
 
 export const PRODUCTS_URL = '/api/products';
